@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Begin Linear Layout -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/birds_caught"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="@color/utsa_background"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <!-- Begin Grid Layout -->
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        tools:context=".MainActivity"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b1"
+            style="@style/blue_button"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/utsa_blue" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b2"
+            style="@style/blue_button"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/utsa_orange" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b3"
+            style="@style/blue_button"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/utsa_blue" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b4"
+            style="@style/blue_button"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/utsa_orange" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b5"
+            style="@style/blue_button"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/utsa_blue" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b6"
+            style="@style/blue_button"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/utsa_orange" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b7"
+            style="@style/blue_button"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/utsa_blue" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b8"
+            style="@style/blue_button"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/utsa_orange" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b9"
+            style="@style/blue_button"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/utsa_blue" />
+    </GridLayout>
+</LinearLayout>

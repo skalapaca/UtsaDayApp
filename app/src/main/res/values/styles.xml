@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="blue_button" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@drawable/utsa_blue_button</item>
+    </style>
+    <style name="orange_button" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@drawable/utsa_orange_button</item>
+    </style>
+</resources>

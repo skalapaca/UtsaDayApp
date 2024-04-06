@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="utsa_background">#495A70</color>
+    <color name="utsa_blue">#0C2340</color>
+    <color name="utsa_orange">#F15A22</color>
+</resources>
